@@ -1,0 +1,35 @@
+.gallery-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery-container {
+  padding: 10px;
+  width: 70%;
+}
+.thumbnail-items-container {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+.nature-image {
+  width: 70%;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .nature-image {
+    width: 80%;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}

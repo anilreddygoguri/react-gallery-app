@@ -1,0 +1,15 @@
+.thumbnail-items {
+  list-style: none;
+  margin-right: 8px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.thumbnail-active {
+  opacity: 1;
+}
+.thumbnail {
+  opacity: 0.5;
+}
